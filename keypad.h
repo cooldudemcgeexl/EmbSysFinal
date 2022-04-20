@@ -1,0 +1,73 @@
+/* Microchip Technology Inc. and its subsidiaries.  You may use this software 
+ * and any derivatives exclusively with Microchip products. 
+ * 
+ * THIS SOFTWARE IS SUPPLIED BY MICROCHIP "AS IS".  NO WARRANTIES, WHETHER 
+ * EXPRESS, IMPLIED OR STATUTORY, APPLY TO THIS SOFTWARE, INCLUDING ANY IMPLIED 
+ * WARRANTIES OF NON-INFRINGEMENT, MERCHANTABILITY, AND FITNESS FOR A 
+ * PARTICULAR PURPOSE, OR ITS INTERACTION WITH MICROCHIP PRODUCTS, COMBINATION 
+ * WITH ANY OTHER PRODUCTS, OR USE IN ANY APPLICATION. 
+ *
+ * IN NO EVENT WILL MICROCHIP BE LIABLE FOR ANY INDIRECT, SPECIAL, PUNITIVE, 
+ * INCIDENTAL OR CONSEQUENTIAL LOSS, DAMAGE, COST OR EXPENSE OF ANY KIND 
+ * WHATSOEVER RELATED TO THE SOFTWARE, HOWEVER CAUSED, EVEN IF MICROCHIP HAS 
+ * BEEN ADVISED OF THE POSSIBILITY OR THE DAMAGES ARE FORESEEABLE.  TO THE 
+ * FULLEST EXTENT ALLOWED BY LAW, MICROCHIP'S TOTAL LIABILITY ON ALL CLAIMS 
+ * IN ANY WAY RELATED TO THIS SOFTWARE WILL NOT EXCEED THE AMOUNT OF FEES, IF 
+ * ANY, THAT YOU HAVE PAID DIRECTLY TO MICROCHIP FOR THIS SOFTWARE.
+ *
+ * MICROCHIP PROVIDES THIS SOFTWARE CONDITIONALLY UPON YOUR ACCEPTANCE OF THESE 
+ * TERMS. 
+
+ */
+
+// This is a guard condition so that contents of this file are not included
+// more than once.  
+#ifndef KEYPADHEADER_H
+#define	KEYPADHEADER_H
+
+
+#define COL_0_PIN PORTBbits.RB7
+#define COL_1_PIN PORTBbits.RB6
+#define COL_2_PIN PORTBbits.RB5
+#define COL_3_PIN PORTBbits.RB4
+
+#define COL_0_TRISTATE TRISBbits.TRISB7
+#define COL_1_TRISTATE TRISBbits.TRISB6
+#define COL_2_TRISTATE TRISBbits.TRISB5
+#define COL_3_TRISTATE TRISBbits.TRISB4
+
+
+#define ROW_0_PIN PORTBbits.RB3
+#define ROW_1_PIN PORTBbits.RB2
+#define ROW_2_PIN PORTBbits.RB1
+#define ROW_3_PIN PORTBbits.RB0
+
+#define ROW_0_TRISTATE TRISBbits.TRISB3
+#define ROW_1_TRISTATE TRISBbits.TRISB2
+#define ROW_2_TRISTATE TRISBbits.TRISB1
+#define ROW_3_TRISTATE TRISBbits.TRISB0
+
+
+#include <xc.h> // include processor files - each processor file is guarded.  
+#include <stdbool.h>
+
+extern const char charMap[4][4] = {
+    {'1','2','3','A'},
+    {'4','5','6','B'},
+    {'7','8','9','C'},
+    {'*','0','#','D'}
+};
+
+extern bool bitMap[4][4] ={
+    {0,0,0,0},
+    {0,0,0,0},
+    {0,0,0,0},
+    {0,0,0,0}
+};
+
+extern void readKey();
+
+extern char getFirstKeyFound();
+
+#endif	/* XC_HEADER_TEMPLATE_H */
+

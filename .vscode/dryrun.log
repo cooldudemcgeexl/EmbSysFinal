@@ -1,0 +1,25 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/nick/MPLABXProjects/FinalProj.X'
+make -f nbproject/Makefile-default.mk SUBPROJECTS= .build-conf
+make[1]: Entering directory '/home/nick/MPLABXProjects/FinalProj.X'
+make  -f nbproject/Makefile-default.mk dist/default/production/FinalProj.X.production.hex
+ 
+make[2]: Entering directory '/home/nick/MPLABXProjects/FinalProj.X'
+mkdir -p "build/default/production" 
+rm -f  build/default/production/main.p1.d 
+rm -f  build/default/production/main.p1 
+"/opt/microchip/xc8/v2.36/bin/xc8-cc"  -mcpu=16F886 -c   -mdfp="/opt/microchip/mplabx/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8"  -fno-short-double -fno-short-float -O0 -fasmfile -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_default=default  -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mdefault-config-bits   -std=c99 -gdwarf-3 -mstack=compiled:auto:auto     -o build/default/production/main.p1 main.c 
+mv  build/default/production/main.d build/default/production/main.p1.d 
+fixDeps build/default/production/main.p1.d  -rsi "/opt/microchip/xc8/v2.36/bin"../  
+mkdir -p "build/default/production" 
+rm -f  build/default/production/lcd.p1.d 
+rm -f  build/default/production/lcd.p1 
+"/opt/microchip/xc8/v2.36/bin/xc8-cc"  -mcpu=16F886 -c   -mdfp="/opt/microchip/mplabx/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8"  -fno-short-double -fno-short-float -O0 -fasmfile -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_default=default  -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mdefault-config-bits   -std=c99 -gdwarf-3 -mstack=compiled:auto:auto     -o build/default/production/lcd.p1 lcd.c 
+mv  build/default/production/lcd.d build/default/production/lcd.p1.d 
+fixDeps build/default/production/lcd.p1.d  -rsi "/opt/microchip/xc8/v2.36/bin"../  
+mkdir -p dist/default/production 
+"/opt/microchip/xc8/v2.36/bin/xc8-cc"  -mcpu=16F886 -Wl,-Map=dist/default/production/FinalProj.X.production.map  -DXPRJ_default=default  -Wl,--defsym=__MPLAB_BUILD=1   -mdfp="/opt/microchip/mplabx/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8"  -fno-short-double -fno-short-float -O0 -fasmfile -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mdefault-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto      -Wl,--memorysummary,dist/default/production/memoryfile.xml -o dist/default/production/FinalProj.X.production.elf  build/default/production/main.p1 build/default/production/lcd.p1     
+make[2]: Leaving directory '/home/nick/MPLABXProjects/FinalProj.X'
+make[1]: Leaving directory '/home/nick/MPLABXProjects/FinalProj.X'
+make: Leaving directory '/home/nick/MPLABXProjects/FinalProj.X'
+ 

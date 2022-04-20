@@ -1,0 +1,2292 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make SUBPROJECTS= CONF=default build
+# make[1]: Entering directory '/home/nick/MPLABXProjects/FinalProj.X'
+make -f nbproject/Makefile-default.mk SUBPROJECTS= .build-conf
+ 
+# make[2]: Entering directory '/home/nick/MPLABXProjects/FinalProj.X'
+make  -f nbproject/Makefile-default.mk dist/default/production/FinalProj.X.production.hex
+# make[3]: Entering directory '/home/nick/MPLABXProjects/FinalProj.X'
+# GNU Make 4.2
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Mon Apr 18 17:02:40 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# makefile (from 'nbproject/Makefile-default.mk', line 85)
+FIXDEPS = fixDeps
+# automatic
+?F = $(notdir $?)
+# environment
+DESKTOP_SESSION = plasma
+# automatic
+-*-command-variables-*- := CONF=default SUBPROJECTS=
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_SESSION_CLASS = user
+# makefile (from 'nbproject/Makefile-impl.mk', line 16)
+SUB_no = NO
+# environment
+XDG_SESSION_TYPE = x11
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+GTK3_MODULES = xapp-gtk3-module
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+GTK_RC_FILES = /etc/gtk/gtkrc:/home/nick/.gtkrc:/home/nick/.config/gtkrc
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+XAUTHORITY = /home/nick/.Xauthority
+# automatic
+@F = $(notdir $@)
+# default
+MAKE_VERSION := 4.2
+# makefile
+CURDIR := /home/nick/MPLABXProjects/FinalProj.X
+# makefile
+SHELL = /bin/sh
+# makefile (from 'nbproject/Makefile-default.mk', line 23)
+RM = rm -f 
+# makefile (from 'nbproject/Makefile-default.mk', line 37)
+DEBUGGABLE_SUFFIX = elf
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# makefile (from 'nbproject/Makefile-default.mk', line 93)
+MP_PROCESSOR_OPTION = 16F886
+# environment
+_ = /usr/bin/make
+# environment
+QT_AUTO_SCREEN_SCALE_FACTOR = 0
+# makefile (from 'nbproject/Makefile-impl.mk', line 34)
+ALLCONFS = default 
+# makefile (from 'nbproject/Makefile-default.mk', line 64)
+POSSIBLE_DEPFILES = ${OBJECTDIR}/main.p1.d ${OBJECTDIR}/lcd.p1.d
+# environment
+XDG_CONFIG_DIRS = /home/nick/.config/kdedefaults:/etc/xdg
+# makefile (from 'nbproject/Makefile-local-default.mk', line 34)
+MP_LD_DIR = "/opt/microchip/xc8/v2.36/bin"
+# environment
+SYSTEMD_EXEC_PID = 766
+# makefile (from 'build/default/production/lcd.p1.d', line 1)
+MAKEFILE_LIST :=  nbproject/Makefile-default.mk Makefile nbproject/Makefile-impl.mk nbproject/Makefile-variables.mk nbproject/Makefile-local-default.mk build/default/production/main.p1.d build/default/production/lcd.p1.d
+# makefile (from 'nbproject/Makefile-default.mk', line 25)
+CP = cp 
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+MAKELEVEL := 3
+# environment
+XDG_DATA_DIRS = /home/nick/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+# makefile (from 'nbproject/Makefile-local-default.mk', line 37)
+DFP_DIR = /opt/microchip/mplabx/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+XCURSOR_SIZE = 24
+# makefile (from 'nbproject/Makefile-impl.mk', line 22)
+CLEAN_SUBPROJECTS_NO = 
+# makefile (from 'nbproject/Makefile-default.mk', line 175)
+DEPFILES = $(shell "${PATH_TO_IDE_BIN}"mplabwildcard ${POSSIBLE_DEPFILES})
+# makefile (from 'nbproject/Makefile-local-default.mk', line 28)
+MP_AR = "/opt/microchip/xc8/v2.36/bin/xc8-ar"
+# makefile (from 'nbproject/Makefile-impl.mk', line 23)
+CLEAN_SUBPROJECTS = ${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
+# environment
+QT_SCREEN_SCALE_FACTORS = eDP-1=1.125;DP-1=1.125;DP-2=1.125;DP-3=1.125;
+# command line
+CONF = default
+# makefile (from 'nbproject/Makefile-impl.mk', line 21)
+CLEAN_SUBPROJECTS_ = .clean-subprojects
+# makefile (from 'nbproject/Makefile-default.mk', line 60)
+SOURCEFILES_QUOTED_IF_SPACED = main.c lcd.c
+# makefile (from 'nbproject/Makefile-default.mk', line 38)
+FINAL_IMAGE = ${DISTDIR}/FinalProj.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-4211fd1e-c0db-4bdc-8e55-5910f2d81ed9.sock
+# environment
+LC_NAME = en_US.UTF-8
+# environment
+VSCODE_CWD = /home/nick
+# environment
+PAM_KWALLET5_LOGIN = /run/user/1000/kwallet5.socket
+# environment
+XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session1
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# makefile (from 'nbproject/Makefile-local-default.mk', line 19)
+PATH := /opt/microchip/mplabx/v6.00/mplab_platform/platform/../mplab_ide/modules/../../bin/:/opt/microchip/mplabx/v6.00/mplab_platform/platform/../mplab_ide/modules/../../bin/:/home/nick/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/opt/microchip/xc8/v2.36/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin
+# makefile (from 'nbproject/Makefile-default.mk', line 44)
+COMPARISON_BUILD = 
+# makefile (from 'Makefile', line 49)
+CCADMIN = CCadmin
+# makefile (from 'nbproject/Makefile-variables.mk', line 6)
+CND_BASEDIR = `pwd`
+# environment
+XCURSOR_THEME = breeze_cursors
+# environment
+SESSION_MANAGER = local/beefier-laptop:@/tmp/.ICE-unix/878,unix/beefier-laptop:/tmp/.ICE-unix/878
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# makefile (from 'nbproject/Makefile-default.mk', line 74)
+CFLAGS = 
+# makefile (from 'nbproject/Makefile-local-default.mk', line 27)
+MP_LD = "/opt/microchip/xc8/v2.36/bin/xc8-cc"
+# environment
+VSCODE_LOG_STACK = false
+# environment
+LC_NUMERIC = en_US.UTF-8
+# environment
+GTK2_RC_FILES = /etc/gtk-2.0/gtkrc:/home/nick/.gtkrc-2.0:/home/nick/.config/gtkrc-2.0
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# makefile (from 'nbproject/Makefile-local-default.mk', line 29)
+DEP_GEN = ${MP_JAVA_PATH}java -jar "/opt/microchip/mplabx/v6.00/mplab_platform/platform/../mplab_ide/modules/../../bin/extractobjectdependencies.jar"
+# makefile (from 'nbproject/Makefile-local-default.mk', line 35)
+MP_AR_DIR = "/opt/microchip/xc8/v2.36/bin"
+# environment
+XDG_SESSION_DESKTOP = KDE
+# makefile (from 'nbproject/Makefile-default.mk', line 50)
+SUB_IMAGE_ADDRESS_COMMAND = 
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = :0
+# makefile (from 'nbproject/Makefile-impl.mk', line 30)
+DEFAULTCONF = default
+# makefile (from 'nbproject/Makefile-local-default.mk', line 23)
+MP_CC = "/opt/microchip/xc8/v2.36/bin/xc8-cc"
+# makefile (from 'nbproject/Makefile-variables.mk', line 10)
+CND_ARTIFACT_PATH_default = dist/default/production/FinalProj.X.production.hex
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+HOME = /home/nick
+# environment
+PWD = /home/nick/MPLABXProjects/FinalProj.X
+# makefile (from 'nbproject/Makefile-impl.mk', line 19)
+BUILD_SUBPROJECTS_NO = 
+# makefile (from 'nbproject/Makefile-impl.mk', line 20)
+BUILD_SUBPROJECTS = ${BUILD_SUBPROJECTS_${SUBPROJECTS}}
+# environment
+KDE_SESSION_VERSION = 5
+# default
+.LOADED := 
+# makefile (from 'nbproject/Makefile-impl.mk', line 18)
+BUILD_SUBPROJECTS_ = .build-subprojects
+# environment
+XDG_SEAT = seat0
+# makefile (from 'nbproject/Makefile-default.mk', line 67)
+OBJECTFILES = ${OBJECTDIR}/main.p1 ${OBJECTDIR}/lcd.p1
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = KDE
+# environment
+GTK_MODULES = canberra-gtk-module
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = /home/nick/.config/Code/CachedData/dfd34e8260c270da74b5c2d86d61aee4b6d56977
+# environment
+LOGNAME = nick
+# environment
+QT_LINUX_ACCESSIBILITY_ALWAYS_ON = 1
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# makefile (from 'Makefile', line 50)
+RANLIB = ranlib
+# automatic
++F = $(notdir $+)
+# environment
+KDE_FULL_SESSION = true
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile (from 'nbproject/Makefile-default.mk', line 22)
+MKDIR = mkdir -p
+# environment
+XDG_VTNR = 1
+# makefile (from 'nbproject/Makefile-default.mk', line 57)
+DISTDIR = dist/${CND_CONF}/${IMAGE_TYPE}
+# environment
+LC_TIME = en_US.UTF-8
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := dist/default/production/FinalProj.X.production.hex
+# environment
+SHLVL = 1
+# makefile (from 'nbproject/Makefile-default.mk', line 36)
+OUTPUT_SUFFIX = hex
+# environment
+XC8_TOOLCHAIN_ROOT = /opt/microchip/xc8/v2.36
+# environment
+MAKEOVERRIDES = ${-*-command-variables-*-}
+# makefile (from 'nbproject/Makefile-default.mk', line 75)
+ASFLAGS = 
+# environment
+XDG_SESSION_ID = 2
+# environment
+USER = nick
+# environment
+LC_MONETARY = en_US.UTF-8
+# makefile
+.DEFAULT_GOAL := build
+# makefile (from 'nbproject/Makefile-local-default.mk', line 33)
+MP_AS_DIR = "/opt/microchip/xc8/v2.36/bin"
+# environment
+XDG_CURRENT_DESKTOP = KDE
+# makefile (from 'nbproject/Makefile-default.mk', line 35)
+IMAGE_TYPE = production
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+LC_TELEPHONE = en_US.UTF-8
+# default
+MAKE_COMMAND := make
+# environment
+KDE_APPLICATIONS_AS_SCOPE = 1
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+XDG_SEAT_PATH = /org/freedesktop/DisplayManager/Seat0
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-dc656a11-1.66.2-main.sock
+# makefile (from 'nbproject/Makefile-variables.mk', line 9)
+CND_ARTIFACT_NAME_default = FinalProj.X.production.hex
+# makefile
+MAKEFLAGS = pqrRw -- $(MAKEOVERRIDES)
+# environment
+MFLAGS = -pqrRw
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+MAIL = /var/spool/mail/nick
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+GDK_BACKEND = x11
+# environment
+ 
+LC_PAPER = en_US.UTF-8
+# environment
+NO_AT_BRIDGE = 1
+# makefile (from 'nbproject/Makefile-local-default.mk', line 21)
+MP_JAVA_PATH = "/usr/lib/jvm/java-8-openjdk/jre/bin/"
+# 'override' directive
+.SHELLSTATUS := 0
+# default
+MAKEFILES := 
+# makefile (from 'nbproject/Makefile-default.mk', line 63)
+OBJECTFILES_QUOTED_IF_SPACED = ${OBJECTDIR}/main.p1 ${OBJECTDIR}/lcd.p1
+# automatic
+<F = $(notdir $<)
+# makefile (from 'nbproject/Makefile-default.mk', line 76)
+LDLIBSOPTIONS = 
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# makefile (from 'nbproject/Makefile-impl.mk', line 27)
+PROJECTNAME = FinalProj.X
+# environment
+LC_MEASUREMENT = en_US.UTF-8
+# makefile (from 'nbproject/Makefile-default.mk', line 70)
+SOURCEFILES = main.c lcd.c
+# makefile (from 'nbproject/Makefile-local-default.mk', line 26)
+MP_AS = "/opt/microchip/xc8/v2.36/bin/xc8-cc"
+# environment
+LC_ALL = C
+# makefile (from 'nbproject/Makefile-local-default.mk', line 17)
+PATH_TO_IDE_BIN = /opt/microchip/mplabx/v6.00/mplab_platform/platform/../mplab_ide/modules/../../bin/
+# makefile (from 'nbproject/Makefile-default.mk', line 54)
+OBJECTDIR = build/${CND_CONF}/${IMAGE_TYPE}
+# automatic
+^F = $(notdir $^)
+# makefile (from 'nbproject/Makefile-local-default.mk', line 30)
+MP_CC_DIR = "/opt/microchip/xc8/v2.36/bin"
+# makefile (from 'nbproject/Makefile-default.mk', line 24)
+MV = mv 
+# default
+SUFFIXES := 
+# makefile (from 'nbproject/Makefile-default.mk', line 28)
+CND_CONF = default
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# makefile (from 'nbproject/Makefile-variables.mk', line 8)
+CND_ARTIFACT_DIR_default = dist/default/production
+# default
+.INCLUDE_DIRS = /usr/local/include /usr/local/include /usr/include
+# environment
+LC_IDENTIFICATION = en_US.UTF-8
+# command line
+SUBPROJECTS = 
+# default
+.RECIPEPREFIX := 
+# environment
+LC_ADDRESS = en_US.UTF-8
+# environment
+LANG = C
+# makefile (from 'nbproject/Makefile-local-default.mk', line 22)
+OS_CURRENT = "$(shell uname -s)"
+# environment
+VSCODE_PID = 2370
+# environment
+MOTD_SHOWN = pam
+# environment
+KDE_SESSION_UID = 1000
+# variable set hash-table stats:
+# Load=166/1024=16%, Rehash=0, Collisions=35/313=11%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+
+# No files, no impossibilities in 0 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+nbproject/Makefile-local-default.mk:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-18 16:59:40.465694755
+#  File has been updated.
+#  Successfully updated.
+
+.build-subprojects:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+nbproject/Makefile-variables.mk:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-18 16:59:40.465694755
+#  File has been updated.
+#  Successfully updated.
+
+.clean-pre:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: .all-post
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.build-impl: .build-pre
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-impl.mk', line 39):
+	${MAKE} -f nbproject/Makefile-${CONF}.mk SUBPROJECTS=${SUBPROJECTS} .build-conf
+
+build/default/production/main.p1: main.c nbproject/Makefile-default.mk main.c lcd.h
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Last modified 2022-04-14 22:33:44.906257067
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := build/default/production/main.p1
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := main.c nbproject/Makefile-default.mk main.c lcd.h
+# automatic
+# | := 
+# automatic
+# < := main.c
+# automatic
+# ^ := main.c nbproject/Makefile-default.mk lcd.h
+# automatic
+# ? := nbproject/Makefile-default.mk lcd.h
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=32/45=71%
+#  recipe to execute (from 'nbproject/Makefile-default.mk', line 115):
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/main.p1.d 
+	@${RM} ${OBJECTDIR}/main.p1 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c   -mdfp="${DFP_DIR}/xc8"  -fno-short-double -fno-short-float -O0 -fasmfile -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_default=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mdefault-config-bits $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto     -o ${OBJECTDIR}/main.p1 main.c 
+	@-${MV} ${OBJECTDIR}/main.d ${OBJECTDIR}/main.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/main.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+	
+
+# Not a target:
+main.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-14 22:33:44.42628162
+#  File has been updated.
+#  Successfully updated.
+
+.all-pre:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.build-post: .build-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.clean-conf: .clean-subprojects
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-default.mk', line 169):
+	${RM} -r ${OBJECTDIR}
+	${RM} -r ${DISTDIR}
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-14 18:28:40.026111034
+#  File has been updated.
+#  Successfully updated.
+
+.depcheck-impl:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.clobber-impl: .clobber-pre .depcheck-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-impl.mk', line 48):
+	    ${MAKE} SUBPROJECTS=${SUBPROJECTS} CONF=default clean
+
+build: .build-post
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clobber: .clobber-post
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.clobber-post: .clobber-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+help: .help-post
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+dist/default/production/FinalProj.X.production.hex: build/default/production/main.p1 build/default/production/lcd.p1 nbproject/Makefile-default.mk
+#  Command line target.
+#  Implicit rule search has not been done.
+#  Last modified 2022-04-14 22:33:45.949537128
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/37=0%
+#  recipe to execute (from 'nbproject/Makefile-default.mk', line 154):
+	@${MKDIR} ${DISTDIR} 
+	${MP_CC} $(MP_EXTRA_LD_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -Wl,-Map=${DISTDIR}/FinalProj.X.${IMAGE_TYPE}.map  -DXPRJ_default=$(CND_CONF)  -Wl,--defsym=__MPLAB_BUILD=1   -mdfp="${DFP_DIR}/xc8"  -fno-short-double -fno-short-float -O0 -fasmfile -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mdefault-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto     $(COMPARISON_BUILD) -Wl,--memorysummary,${DISTDIR}/memoryfile.xml -o ${DISTDIR}/FinalProj.X.${IMAGE_TYPE}.${DEBUGGABLE_SUFFIX}  ${OBJECTFILES_QUOTED_IF_SPACED}     
+	
+
+# Not a target:
+nbproject/Makefile-impl.mk:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-18 16:59:36.888861254
+#  File has been updated.
+#  Successfully updated.
+
+.clean-subprojects:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.help-impl:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.build-pre:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/default/production/lcd.p1.d:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-14 20:32:49.216475926
+#  File has been updated.
+#  Successfully updated.
+
+.clean-impl: .clean-pre
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-impl.mk', line 44):
+	${MAKE} -f nbproject/Makefile-${CONF}.mk SUBPROJECTS=${SUBPROJECTS} .clean-conf
+
+.help-post: .help-impl
+ 
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean: .clean-post
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.clean-post: .clean-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.build-conf: .build-subprojects
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-default.mk', line 91):
+	${MAKE}  -f nbproject/Makefile-default.mk ${DISTDIR}/FinalProj.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}
+
+.clobber-pre:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.all-impl: .all-pre .depcheck-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-impl.mk', line 54):
+	    ${MAKE} SUBPROJECTS=${SUBPROJECTS} CONF=default build
+
+build/default/production/lcd.p1: lcd.c nbproject/Makefile-default.mk lcd.c lcd.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-default.mk', line 123):
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/lcd.p1.d 
+	@${RM} ${OBJECTDIR}/lcd.p1 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c   -mdfp="${DFP_DIR}/xc8"  -fno-short-double -fno-short-float -O0 -fasmfile -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_default=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mdefault-config-bits $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto     -o ${OBJECTDIR}/lcd.p1 lcd.c 
+	@-${MV} ${OBJECTDIR}/lcd.d ${OBJECTDIR}/lcd.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/lcd.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+	
+
+# Not a target:
+lcd.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.dep.inc: .depcheck-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.all-post: .all-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/default/production/main.p1.d:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-14 22:33:44.90959023
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+nbproject/Makefile-default.mk:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-18 16:59:40.465694755
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+lcd.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-18 17:00:37.391686976
+#  File has been updated.
+#  Successfully updated.
+
+.help-pre:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=41/1024=4%, Rehash=0, Collisions=0/102=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 43 / storage = 676 B / avg = 15 B
+# current buf: size = 8162 B / used = 676 B / count = 43 / avg = 15 B
+
+# strcache performance: lookups = 112 / hit rate = 61%
+# hash-table stats:
+# Load=43/8192=1%, Rehash=0, Collisions=0/112=0%
+# Finished Make data base on Mon Apr 18 17:02:40 2022
+
+# make[3]: Leaving directory '/home/nick/MPLABXProjects/FinalProj.X'
+# GNU Make 4.3
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Mon Apr 18 17:02:40 2022
+
+# Variables
+
+# makefile (from 'nbproject/Makefile-default.mk', line 37)
+DEBUGGABLE_SUFFIX = elf
+# environment
+GDK_BACKEND = x11
+# environment
+LC_ALL = C
+# environment
+NO_AT_BRIDGE = 1
+# environment
+GTK_RC_FILES = /etc/gtk/gtkrc:/home/nick/.gtkrc:/home/nick/.config/gtkrc
+# makefile (from 'nbproject/Makefile-default.mk', line 60)
+SOURCEFILES_QUOTED_IF_SPACED = main.c lcd.c
+# makefile (from 'nbproject/Makefile-default.mk', line 24)
+MV = mv 
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-4211fd1e-c0db-4bdc-8e55-5910f2d81ed9.sock
+# environment
+LC_NAME = en_US.UTF-8
+# environment
+LC_NUMERIC = en_US.UTF-8
+# environment
+VSCODE_CWD = /home/nick
+# makefile (from 'nbproject/Makefile-impl.mk', line 18)
+BUILD_SUBPROJECTS_ = .build-subprojects
+# environment
+LC_ADDRESS = en_US.UTF-8
+# default
+MAKE_COMMAND := make
+# environment
+GTK3_MODULES = xapp-gtk3-module
+# makefile (from 'nbproject/Makefile-default.mk', line 38)
+FINAL_IMAGE = ${DISTDIR}/FinalProj.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /home/nick/MPLABXProjects/FinalProj.X
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+MAIL = /var/spool/mail/nick
+# environment
+XDG_DATA_DIRS = /home/nick/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+# makefile (from 'nbproject/Makefile-variables.mk', line 6)
+CND_BASEDIR = `pwd`
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = /home/nick/.config/Code/CachedData/dfd34e8260c270da74b5c2d86d61aee4b6d56977
+# makefile (from 'nbproject/Makefile-impl.mk', line 27)
+PROJECTNAME = FinalProj.X
+# environment
+XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session1
+# makefile (from 'nbproject/Makefile-default.mk', line 175)
+DEPFILES = $(shell "${PATH_TO_IDE_BIN}"mplabwildcard ${POSSIBLE_DEPFILES})
+# environment
+LANG = C
+# environment
+XAUTHORITY = /home/nick/.Xauthority
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# makefile
+MAKEFLAGS = pqrRw -- $(MAKEOVERRIDES)
+# makefile (from 'nbproject/Makefile-default.mk', line 57)
+DISTDIR = dist/${CND_CONF}/${IMAGE_TYPE}
+# makefile (from 'nbproject/Makefile-local-default.mk', line 37)
+DFP_DIR = /opt/microchip/mplabx/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42
+# makefile
+CURDIR := /home/nick/MPLABXProjects/FinalProj.X
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# makefile (from 'nbproject/Makefile-local-default.mk', line 35)
+MP_AR_DIR = "/opt/microchip/xc8/v2.36/bin"
+# environment
+PAM_KWALLET5_LOGIN = /run/user/1000/kwallet5.socket
+# environment
+MFLAGS = -pqrRw
+# default
+.SHELLFLAGS := -c
+# makefile (from 'nbproject/Makefile-default.mk', line 64)
+POSSIBLE_DEPFILES = ${OBJECTDIR}/main.p1.d ${OBJECTDIR}/lcd.p1.d
+# environment
+QT_LINUX_ACCESSIBILITY_ALWAYS_ON = 1
+# environment
+XDG_CONFIG_DIRS = /home/nick/.config/kdedefaults:/etc/xdg
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# makefile (from 'nbproject/Makefile-local-default.mk', line 33)
+MP_AS_DIR = "/opt/microchip/xc8/v2.36/bin"
+# environment
+XCURSOR_THEME = breeze_cursors
+# environment
+XDG_SESSION_DESKTOP = KDE
+# makefile (from 'build/default/production/lcd.p1.d', line 1)
+MAKEFILE_LIST := nbproject/Makefile-default.mk Makefile nbproject/Makefile-impl.mk nbproject/Makefile-variables.mk nbproject/Makefile-local-default.mk build/default/production/main.p1.d build/default/production/lcd.p1.d
+# makefile (from 'nbproject/Makefile-default.mk', line 75)
+ASFLAGS = 
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 2370
+# makefile (from 'Makefile', line 49)
+CCADMIN = CCadmin
+# environment
+XDG_SESSION_TYPE = x11
+# makefile (from 'nbproject/Makefile-local-default.mk', line 28)
+MP_AR = "/opt/microchip/xc8/v2.36/bin/xc8-ar"
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# makefile (from 'Makefile', line 50)
+RANLIB = ranlib
+# makefile (from 'nbproject/Makefile-default.mk', line 25)
+CP = cp 
+# environment
+SESSION_MANAGER = local/beefier-laptop:@/tmp/.ICE-unix/878,unix/beefier-laptop:/tmp/.ICE-unix/878
+# automatic
+*F = $(notdir $*)
+# makefile (from 'nbproject/Makefile-default.mk', line 50)
+SUB_IMAGE_ADDRESS_COMMAND = 
+# makefile (from 'nbproject/Makefile-local-default.mk', line 17)
+PATH_TO_IDE_BIN = /opt/microchip/mplabx/v6.00/mplab_platform/platform/../mplab_ide/modules/../../bin/
+# makefile (from 'nbproject/Makefile-default.mk', line 76)
+LDLIBSOPTIONS = 
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# makefile (from 'nbproject/Makefile-local-default.mk', line 26)
+MP_AS = "/opt/microchip/xc8/v2.36/bin/xc8-cc"
+# makefile (from 'nbproject/Makefile-default.mk', line 70)
+SOURCEFILES = main.c lcd.c
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# makefile (from 'nbproject/Makefile-default.mk', line 28)
+CND_CONF = default
+# makefile
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := .build-conf
+# makefile (from 'nbproject/Makefile-local-default.mk', line 29)
+DEP_GEN = ${MP_JAVA_PATH}java -jar "/opt/microchip/mplabx/v6.00/mplab_platform/platform/../mplab_ide/modules/../../bin/extractobjectdependencies.jar"
+# environment
+SHLVL = 1
+# makefile (from 'nbproject/Makefile-impl.mk', line 20)
+BUILD_SUBPROJECTS = ${BUILD_SUBPROJECTS_${SUBPROJECTS}}
+# makefile (from 'nbproject/Makefile-local-default.mk', line 23)
+MP_CC = "/opt/microchip/xc8/v2.36/bin/xc8-cc"
+# environment
+MAKELEVEL := 2
+# makefile (from 'nbproject/Makefile-local-default.mk', line 34)
+ 
+MP_LD_DIR = "/opt/microchip/xc8/v2.36/bin"
+# makefile (from 'nbproject/Makefile-impl.mk', line 19)
+BUILD_SUBPROJECTS_NO = 
+# makefile (from 'nbproject/Makefile-default.mk', line 22)
+MKDIR = mkdir -p
+# default
+MAKE = $(MAKE_COMMAND)
+# makefile (from 'nbproject/Makefile-local-default.mk', line 19)
+PATH := /opt/microchip/mplabx/v6.00/mplab_platform/platform/../mplab_ide/modules/../../bin/:/home/nick/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/opt/microchip/xc8/v2.36/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin
+# default
+MAKEFILES := 
+# environment
+LC_MONETARY = en_US.UTF-8
+# environment
+MOTD_SHOWN = pam
+# automatic
+^F = $(notdir $^)
+# environment
+LC_TIME = en_US.UTF-8
+# makefile (from 'nbproject/Makefile-default.mk', line 54)
+OBJECTDIR = build/${CND_CONF}/${IMAGE_TYPE}
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+LC_TELEPHONE = en_US.UTF-8
+# automatic
+?F = $(notdir $?)
+# makefile (from 'nbproject/Makefile-default.mk', line 36)
+OUTPUT_SUFFIX = hex
+# makefile (from 'nbproject/Makefile-default.mk', line 44)
+COMPARISON_BUILD = 
+# environment
+KDE_APPLICATIONS_AS_SCOPE = 1
+# environment
+XDG_SEAT = seat0
+# makefile (from 'nbproject/Makefile-default.mk', line 63)
+OBJECTFILES_QUOTED_IF_SPACED = ${OBJECTDIR}/main.p1 ${OBJECTDIR}/lcd.p1
+# environment
+XDG_CURRENT_DESKTOP = KDE
+# environment
+XC8_TOOLCHAIN_ROOT = /opt/microchip/xc8/v2.36
+# automatic
++F = $(notdir $+)
+# environment
+XDG_SEAT_PATH = /org/freedesktop/DisplayManager/Seat0
+# environment
+DESKTOP_SESSION = plasma
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = KDE
+# 'override' directive
+GNUMAKEFLAGS := 
+# makefile (from 'nbproject/Makefile-local-default.mk', line 22)
+OS_CURRENT = "$(shell uname -s)"
+# environment
+QT_SCREEN_SCALE_FACTORS = eDP-1=1.125;DP-1=1.125;DP-2=1.125;DP-3=1.125;
+# environment
+LOGNAME = nick
+# environment
+XDG_VTNR = 1
+# makefile
+.DEFAULT_GOAL := build
+# environment
+SYSTEMD_EXEC_PID = 766
+# makefile (from 'nbproject/Makefile-default.mk', line 23)
+RM = rm -f 
+# makefile (from 'nbproject/Makefile-default.mk', line 85)
+FIXDEPS = fixDeps
+# environment
+DISPLAY = :0
+# environment
+GTK_MODULES = canberra-gtk-module
+# environment
+USER = nick
+# default
+MAKE_VERSION := 4.3
+# environment
+KDE_SESSION_UID = 1000
+# makefile (from 'nbproject/Makefile-default.mk', line 93)
+MP_PROCESSOR_OPTION = 16F886
+# 'override' directive
+.SHELLSTATUS := 0
+# environment
+MAKEOVERRIDES = ${-*-command-variables-*-}
+# makefile (from 'nbproject/Makefile-variables.mk', line 10)
+CND_ARTIFACT_PATH_default = dist/default/production/FinalProj.X.production.hex
+# environment
+LC_MEASUREMENT = en_US.UTF-8
+# makefile (from 'nbproject/Makefile-variables.mk', line 9)
+CND_ARTIFACT_NAME_default = FinalProj.X.production.hex
+# automatic
+-*-command-variables-*- := SUBPROJECTS= CONF=default
+# makefile (from 'nbproject/Makefile-local-default.mk', line 30)
+MP_CC_DIR = "/opt/microchip/xc8/v2.36/bin"
+# environment
+_ = /usr/bin/make
+# command line
+CONF = default
+# environment
+LC_PAPER = en_US.UTF-8
+# makefile (from 'nbproject/Makefile-impl.mk', line 30)
+DEFAULTCONF = default
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# makefile (from 'nbproject/Makefile-default.mk', line 35)
+IMAGE_TYPE = production
+# makefile (from 'nbproject/Makefile-default.mk', line 74)
+CFLAGS = 
+# makefile (from 'nbproject/Makefile-local-default.mk', line 27)
+MP_LD = "/opt/microchip/xc8/v2.36/bin/xc8-cc"
+# makefile (from 'nbproject/Makefile-local-default.mk', line 21)
+MP_JAVA_PATH = "/usr/lib/jvm/java-8-openjdk/jre/bin/"
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+GTK2_RC_FILES = /etc/gtk-2.0/gtkrc:/home/nick/.gtkrc-2.0:/home/nick/.config/gtkrc-2.0
+# environment
+HOME = /home/nick
+# makefile (from 'nbproject/Makefile-impl.mk', line 16)
+SUB_no = NO
+# makefile (from 'nbproject/Makefile-impl.mk', line 22)
+CLEAN_SUBPROJECTS_NO = 
+# makefile (from 'nbproject/Makefile-impl.mk', line 23)
+CLEAN_SUBPROJECTS = ${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-dc656a11-1.66.2-main.sock
+# environment
+XDG_SESSION_ID = 2
+# makefile (from 'nbproject/Makefile-variables.mk', line 8)
+CND_ARTIFACT_DIR_default = dist/default/production
+# environment
+XCURSOR_SIZE = 24
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# makefile (from 'nbproject/Makefile-impl.mk', line 34)
+ALLCONFS = default 
+# default
+SUFFIXES := 
+# environment
+QT_AUTO_SCREEN_SCALE_FACTOR = 0
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# command line
+SUBPROJECTS = 
+# environment
+KDE_SESSION_VERSION = 5
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink guile load
+# environment
+KDE_FULL_SESSION = true
+# makefile (from 'nbproject/Makefile-default.mk', line 67)
+OBJECTFILES = ${OBJECTDIR}/main.p1 ${OBJECTDIR}/lcd.p1
+# environment
+LC_IDENTIFICATION = en_US.UTF-8
+# makefile (from 'nbproject/Makefile-impl.mk', line 21)
+CLEAN_SUBPROJECTS_ = .clean-subprojects
+# variable set hash-table stats:
+# Load=166/1024=16%, Rehash=0, Collisions=21/294=7%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+
+# No files, no impossibilities in 0 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+.clean-impl: .clean-pre
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-impl.mk', line 44):
+	${MAKE} -f nbproject/Makefile-${CONF}.mk SUBPROJECTS=${SUBPROJECTS} .clean-conf
+
+# Not a target:
+build/default/production/lcd.p1.d:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-14 20:32:49.216475926
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+lcd.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.build-impl: .build-pre
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-impl.mk', line 39):
+	${MAKE} -f nbproject/Makefile-${CONF}.mk SUBPROJECTS=${SUBPROJECTS} .build-conf
+
+dist/default/production/FinalProj.X.production.hex: build/default/production/main.p1 build/default/production/lcd.p1 nbproject/Makefile-default.mk
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-default.mk', line 154):
+	@${MKDIR} ${DISTDIR} 
+	${MP_CC} $(MP_EXTRA_LD_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -Wl,-Map=${DISTDIR}/FinalProj.X.${IMAGE_TYPE}.map  -DXPRJ_default=$(CND_CONF)  -Wl,--defsym=__MPLAB_BUILD=1   -mdfp="${DFP_DIR}/xc8"  -fno-short-double -fno-short-float -O0 -fasmfile -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mdefault-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto     $(COMPARISON_BUILD) -Wl,--memorysummary,${DISTDIR}/memoryfile.xml -o ${DISTDIR}/FinalProj.X.${IMAGE_TYPE}.${DEBUGGABLE_SUFFIX}  ${OBJECTFILES_QUOTED_IF_SPACED}     
+	
+
+.clean-subprojects:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.build-post: .build-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.all-post: .all-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.help-post: .help-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.help-impl:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.build-conf: .build-subprojects
+#  Command line target.
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Modification time never checked.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := .build-conf
+# automatic
+# * := 
+# automatic
+# < := .build-subprojects
+# automatic
+# + := .build-subprojects
+# automatic
+# % := 
+# automatic
+# ^ := .build-subprojects
+# automatic
+# ? := .build-subprojects
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=6/20=30%
+#  recipe to execute (from 'nbproject/Makefile-default.mk', line 91):
+	${MAKE}  -f nbproject/Makefile-default.mk ${DISTDIR}/FinalProj.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}
+
+.clean-post: .clean-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+ 
+#  Last modified 2022-04-14 18:28:40.026111034
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build/default/production/main.p1.d:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-14 22:33:44.90959023
+#  File has been updated.
+#  Successfully updated.
+
+.dep.inc: .depcheck-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean: .clean-post
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/default/production/lcd.p1: lcd.c nbproject/Makefile-default.mk lcd.c lcd.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-default.mk', line 123):
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/lcd.p1.d 
+	@${RM} ${OBJECTDIR}/lcd.p1 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c   -mdfp="${DFP_DIR}/xc8"  -fno-short-double -fno-short-float -O0 -fasmfile -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_default=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mdefault-config-bits $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto     -o ${OBJECTDIR}/lcd.p1 lcd.c 
+	@-${MV} ${OBJECTDIR}/lcd.d ${OBJECTDIR}/lcd.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/lcd.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+	
+
+.clean-pre:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+nbproject/Makefile-default.mk:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-18 16:59:40.465694755
+#  File has been updated.
+#  Successfully updated.
+
+.build-pre:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.all-pre:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: .all-post
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+help: .help-post
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/default/production/main.p1: main.c nbproject/Makefile-default.mk main.c lcd.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-default.mk', line 115):
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/main.p1.d 
+	@${RM} ${OBJECTDIR}/main.p1 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c   -mdfp="${DFP_DIR}/xc8"  -fno-short-double -fno-short-float -O0 -fasmfile -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_default=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mdefault-config-bits $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto     -o ${OBJECTDIR}/main.p1 main.c 
+	@-${MV} ${OBJECTDIR}/main.d ${OBJECTDIR}/main.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/main.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+	
+
+.depcheck-impl:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.help-pre:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build: .build-post
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+nbproject/Makefile-variables.mk:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-18 16:59:40.465694755
+#  File has been updated.
+#  Successfully updated.
+
+.clobber-post: .clobber-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+main.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.clobber-pre:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.clean-conf: .clean-subprojects
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-default.mk', line 169):
+	${RM} -r ${OBJECTDIR}
+	${RM} -r ${DISTDIR}
+
+clobber: .clobber-post
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.build-subprojects:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+nbproject/Makefile-impl.mk:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-18 16:59:36.888861254
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+nbproject/Makefile-local-default.mk:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-18 16:59:40.465694755
+#  File has been updated.
+#  Successfully updated.
+
+.all-impl: .all-pre .depcheck-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-impl.mk', line 54):
+	    ${MAKE} SUBPROJECTS=${SUBPROJECTS} CONF=default build
+
+.clobber-impl: .clobber-pre .depcheck-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-impl.mk', line 48):
+	    ${MAKE} SUBPROJECTS=${SUBPROJECTS} CONF=default clean
+
+# Not a target:
+lcd.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=41/1024=4%, Rehash=0, Collisions=4/103=4%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 43 / storage = 676 B / avg = 15 B
+# current buf: size = 8162 B / used = 676 B / count = 43 / avg = 15 B
+
+# strcache performance: lookups = 112 / hit rate = 61%
+# hash-table stats:
+# Load=43/8192=1%, Rehash=0, Collisions=0/112=0%
+# Finished Make data base on Mon Apr 18 17:02:40 2022
+
+# make[2]: Leaving directory '/home/nick/MPLABXProjects/FinalProj.X'
+# GNU Make 4.3
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Mon Apr 18 17:02:40 2022
+
+# Variables
+
+# environment
+GDK_BACKEND = x11
+# environment
+LC_ALL = C
+# environment
+NO_AT_BRIDGE = 1
+# environment
+GTK_RC_FILES = /etc/gtk/gtkrc:/home/nick/.gtkrc:/home/nick/.config/gtkrc
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-4211fd1e-c0db-4bdc-8e55-5910f2d81ed9.sock
+# environment
+LC_NAME = en_US.UTF-8
+# environment
+LC_NUMERIC = en_US.UTF-8
+# environment
+VSCODE_CWD = /home/nick
+# makefile (from 'nbproject/Makefile-impl.mk', line 18)
+BUILD_SUBPROJECTS_ = .build-subprojects
+# environment
+LC_ADDRESS = en_US.UTF-8
+# default
+MAKE_COMMAND := make
+# environment
+GTK3_MODULES = xapp-gtk3-module
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /home/nick/MPLABXProjects/FinalProj.X
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+MAIL = /var/spool/mail/nick
+# environment
+XDG_DATA_DIRS = /home/nick/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+# makefile (from 'nbproject/Makefile-variables.mk', line 6)
+CND_BASEDIR = `pwd`
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = /home/nick/.config/Code/CachedData/dfd34e8260c270da74b5c2d86d61aee4b6d56977
+# makefile (from 'nbproject/Makefile-impl.mk', line 27)
+PROJECTNAME = FinalProj.X
+# environment
+XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session1
+# environment
+LANG = C
+# environment
+XAUTHORITY = /home/nick/.Xauthority
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# makefile
+MAKEFLAGS = pqrRw -- $(MAKEOVERRIDES)
+# makefile
+CURDIR := /home/nick/MPLABXProjects/FinalProj.X
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+PAM_KWALLET5_LOGIN = /run/user/1000/kwallet5.socket
+# environment
+MFLAGS = -pqrRw
+# default
+.SHELLFLAGS := -c
+# environment
+QT_LINUX_ACCESSIBILITY_ALWAYS_ON = 1
+# environment
+XDG_CONFIG_DIRS = /home/nick/.config/kdedefaults:/etc/xdg
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+XCURSOR_THEME = breeze_cursors
+# environment
+XDG_SESSION_DESKTOP = KDE
+# makefile (from 'nbproject/Makefile-variables.mk', line 1)
+MAKEFILE_LIST := Makefile nbproject/Makefile-impl.mk nbproject/Makefile-variables.mk
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 2370
+# makefile (from 'Makefile', line 49)
+CCADMIN = CCadmin
+# environment
+XDG_SESSION_TYPE = x11
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# makefile (from 'Makefile', line 50)
+RANLIB = ranlib
+# makefile (from 'Makefile', line 48)
+CP = cp
+# environment
+SESSION_MANAGER = local/beefier-laptop:@/tmp/.ICE-unix/878,unix/beefier-laptop:/tmp/.ICE-unix/878
+# automatic
+*F = $(notdir $*)
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# makefile
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := build
+# environment
+SHLVL = 1
+# makefile (from 'nbproject/Makefile-impl.mk', line 20)
+BUILD_SUBPROJECTS = ${BUILD_SUBPROJECTS_${SUBPROJECTS}}
+# environment
+MAKELEVEL := 1
+# makefile (from 'nbproject/Makefile-impl.mk', line 19)
+BUILD_SUBPROJECTS_NO = 
+# makefile (from 'Makefile', line 47)
+MKDIR = mkdir
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /home/nick/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/opt/microchip/xc8/v2.36/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin
+# default
+MAKEFILES := 
+# environment
+LC_MONETARY = en_US.UTF-8
+# environment
+MOTD_SHOWN = pam
+# automatic
+^F = $(notdir $^)
+# environment
+LC_TIME = en_US.UTF-8
+ 
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+LC_TELEPHONE = en_US.UTF-8
+# automatic
+?F = $(notdir $?)
+# environment
+KDE_APPLICATIONS_AS_SCOPE = 1
+# environment
+XDG_SEAT = seat0
+# environment
+XDG_CURRENT_DESKTOP = KDE
+# environment
+XC8_TOOLCHAIN_ROOT = /opt/microchip/xc8/v2.36
+# automatic
++F = $(notdir $+)
+# environment
+XDG_SEAT_PATH = /org/freedesktop/DisplayManager/Seat0
+# environment
+DESKTOP_SESSION = plasma
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = KDE
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+QT_SCREEN_SCALE_FACTORS = eDP-1=1.125;DP-1=1.125;DP-2=1.125;DP-3=1.125;
+# environment
+LOGNAME = nick
+# environment
+XDG_VTNR = 1
+# makefile
+.DEFAULT_GOAL := build
+# environment
+SYSTEMD_EXEC_PID = 766
+# environment
+DISPLAY = :0
+# environment
+GTK_MODULES = canberra-gtk-module
+# environment
+USER = nick
+# default
+MAKE_VERSION := 4.3
+# environment
+KDE_SESSION_UID = 1000
+# environment
+MAKEOVERRIDES = ${-*-command-variables-*-}
+# makefile (from 'nbproject/Makefile-variables.mk', line 10)
+CND_ARTIFACT_PATH_default = dist/default/production/FinalProj.X.production.hex
+# environment
+LC_MEASUREMENT = en_US.UTF-8
+# makefile (from 'nbproject/Makefile-variables.mk', line 9)
+CND_ARTIFACT_NAME_default = FinalProj.X.production.hex
+# automatic
+-*-command-variables-*- := CONF=default SUBPROJECTS=
+# environment
+_ = /usr/bin/make
+# command line
+CONF = default
+# environment
+LC_PAPER = en_US.UTF-8
+# makefile (from 'nbproject/Makefile-impl.mk', line 30)
+DEFAULTCONF = default
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+GTK2_RC_FILES = /etc/gtk-2.0/gtkrc:/home/nick/.gtkrc-2.0:/home/nick/.config/gtkrc-2.0
+# environment
+HOME = /home/nick
+# makefile (from 'nbproject/Makefile-impl.mk', line 16)
+SUB_no = NO
+# makefile (from 'nbproject/Makefile-impl.mk', line 22)
+CLEAN_SUBPROJECTS_NO = 
+# makefile (from 'nbproject/Makefile-impl.mk', line 23)
+CLEAN_SUBPROJECTS = ${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-dc656a11-1.66.2-main.sock
+# environment
+XDG_SESSION_ID = 2
+# makefile (from 'nbproject/Makefile-variables.mk', line 8)
+CND_ARTIFACT_DIR_default = dist/default/production
+# environment
+XCURSOR_SIZE = 24
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# makefile (from 'nbproject/Makefile-impl.mk', line 34)
+ALLCONFS = default 
+# default
+SUFFIXES := 
+# environment
+QT_AUTO_SCREEN_SCALE_FACTOR = 0
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# command line
+SUBPROJECTS = 
+# environment
+KDE_SESSION_VERSION = 5
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink guile load
+# environment
+KDE_FULL_SESSION = true
+# environment
+LC_IDENTIFICATION = en_US.UTF-8
+# makefile (from 'nbproject/Makefile-impl.mk', line 21)
+CLEAN_SUBPROJECTS_ = .clean-subprojects
+# variable set hash-table stats:
+# Load=130/1024=13%, Rehash=0, Collisions=10/178=6%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 66308, inode 10884592): 11 files, no impossibilities.
+
+# 11 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+.clean-impl: .clean-pre
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-impl.mk', line 44):
+	${MAKE} -f nbproject/Makefile-${CONF}.mk SUBPROJECTS=${SUBPROJECTS} .clean-conf
+
+.build-impl: .build-pre
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Modification time never checked.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := .build-impl
+# automatic
+# * := 
+# automatic
+# < := .build-pre
+# automatic
+# + := .build-pre
+# automatic
+# % := 
+# automatic
+# ^ := .build-pre
+# automatic
+# ? := .build-pre
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=4/17=24%
+#  recipe to execute (from 'nbproject/Makefile-impl.mk', line 39):
+	${MAKE} -f nbproject/Makefile-${CONF}.mk SUBPROJECTS=${SUBPROJECTS} .build-conf
+
+.build-post: .build-impl
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/9=0%
+
+.all-post: .all-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.help-post: .help-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.help-impl:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.clean-post: .clean-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-14 18:28:40.026111034
+#  File has been updated.
+#  Successfully updated.
+
+clean: .clean-post
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.clean-pre:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.build-pre:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+.all-pre:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: .all-post
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+help: .help-post
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.depcheck-impl:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.help-pre:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build: .build-post
+#  Command line target.
+#  Implicit rule search has been done.
+#  Last modified 2022-04-14 19:15:00.564906612
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/9=0%
+
+# Not a target:
+nbproject/Makefile-variables.mk:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-18 16:59:40.465694755
+#  File has been updated.
+#  Successfully updated.
+
+.clobber-post: .clobber-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.clobber-pre:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clobber: .clobber-post
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ 
+nbproject/Makefile-impl.mk:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-18 16:59:36.888861254
+#  File has been updated.
+#  Successfully updated.
+
+.all-impl: .all-pre .depcheck-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-impl.mk', line 54):
+	    ${MAKE} SUBPROJECTS=${SUBPROJECTS} CONF=default build
+
+.clobber-impl: .clobber-pre .depcheck-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-impl.mk', line 48):
+	    ${MAKE} SUBPROJECTS=${SUBPROJECTS} CONF=default clean
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=26/1024=3%, Rehash=0, Collisions=3/67=4%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 37 / storage = 388 B / avg = 10 B
+# current buf: size = 8162 B / used = 388 B / count = 37 / avg = 10 B
+
+# strcache performance: lookups = 81 / hit rate = 54%
+# hash-table stats:
+# Load=37/8192=0%, Rehash=0, Collisions=0/81=0%
+# Finished Make data base on Mon Apr 18 17:02:40 2022
+
+# make[1]: Leaving directory '/home/nick/MPLABXProjects/FinalProj.X'
+# GNU Make 4.3
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Mon Apr 18 17:02:40 2022
+
+# Variables
+
+# environment
+GDK_BACKEND = x11
+# environment
+LC_ALL = C
+# environment
+NO_AT_BRIDGE = 1
+# environment
+GTK_RC_FILES = /etc/gtk/gtkrc:/home/nick/.gtkrc:/home/nick/.config/gtkrc
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-4211fd1e-c0db-4bdc-8e55-5910f2d81ed9.sock
+# environment
+LC_NAME = en_US.UTF-8
+# environment
+LC_NUMERIC = en_US.UTF-8
+# environment
+VSCODE_CWD = /home/nick
+# makefile (from 'nbproject/Makefile-impl.mk', line 18)
+BUILD_SUBPROJECTS_ = .build-subprojects
+# environment
+LC_ADDRESS = en_US.UTF-8
+# default
+MAKE_COMMAND := make
+# environment
+GTK3_MODULES = xapp-gtk3-module
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /home/nick/MPLABXProjects/FinalProj.X
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+MAIL = /var/spool/mail/nick
+# environment
+XDG_DATA_DIRS = /home/nick/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+# makefile (from 'nbproject/Makefile-variables.mk', line 6)
+CND_BASEDIR = `pwd`
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = /home/nick/.config/Code/CachedData/dfd34e8260c270da74b5c2d86d61aee4b6d56977
+# makefile (from 'nbproject/Makefile-impl.mk', line 27)
+PROJECTNAME = FinalProj.X
+# environment
+XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session1
+# environment
+LANG = C
+# environment
+XAUTHORITY = /home/nick/.Xauthority
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# makefile
+MAKEFLAGS = pqrR
+# makefile
+CURDIR := /home/nick/MPLABXProjects/FinalProj.X
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+PAM_KWALLET5_LOGIN = /run/user/1000/kwallet5.socket
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# environment
+QT_LINUX_ACCESSIBILITY_ALWAYS_ON = 1
+# environment
+XDG_CONFIG_DIRS = /home/nick/.config/kdedefaults:/etc/xdg
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+XCURSOR_THEME = breeze_cursors
+# environment
+XDG_SESSION_DESKTOP = KDE
+# makefile (from 'nbproject/Makefile-variables.mk', line 1)
+MAKEFILE_LIST := Makefile nbproject/Makefile-impl.mk nbproject/Makefile-variables.mk
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 2370
+# makefile (from 'Makefile', line 49)
+CCADMIN = CCadmin
+# environment
+XDG_SESSION_TYPE = x11
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# makefile (from 'Makefile', line 50)
+RANLIB = ranlib
+# makefile (from 'Makefile', line 48)
+CP = cp
+# environment
+SESSION_MANAGER = local/beefier-laptop:@/tmp/.ICE-unix/878,unix/beefier-laptop:/tmp/.ICE-unix/878
+# automatic
+*F = $(notdir $*)
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# makefile
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 1
+# makefile (from 'nbproject/Makefile-impl.mk', line 20)
+BUILD_SUBPROJECTS = ${BUILD_SUBPROJECTS_${SUBPROJECTS}}
+# environment
+MAKELEVEL := 0
+# makefile (from 'nbproject/Makefile-impl.mk', line 19)
+BUILD_SUBPROJECTS_NO = 
+# makefile (from 'Makefile', line 47)
+MKDIR = mkdir
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /home/nick/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/opt/microchip/xc8/v2.36/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin
+# default
+MAKEFILES := 
+# environment
+LC_MONETARY = en_US.UTF-8
+# environment
+MOTD_SHOWN = pam
+# automatic
+^F = $(notdir $^)
+# environment
+LC_TIME = en_US.UTF-8
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+LC_TELEPHONE = en_US.UTF-8
+# automatic
+?F = $(notdir $?)
+# environment
+KDE_APPLICATIONS_AS_SCOPE = 1
+# environment
+XDG_SEAT = seat0
+# environment
+XDG_CURRENT_DESKTOP = KDE
+# environment
+XC8_TOOLCHAIN_ROOT = /opt/microchip/xc8/v2.36
+# automatic
++F = $(notdir $+)
+# environment
+XDG_SEAT_PATH = /org/freedesktop/DisplayManager/Seat0
+# environment
+DESKTOP_SESSION = plasma
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = KDE
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+QT_SCREEN_SCALE_FACTORS = eDP-1=1.125;DP-1=1.125;DP-2=1.125;DP-3=1.125;
+# environment
+LOGNAME = nick
+# environment
+XDG_VTNR = 1
+# makefile
+.DEFAULT_GOAL := build
+# environment
+SYSTEMD_EXEC_PID = 766
+# environment
+DISPLAY = :0
+# environment
+GTK_MODULES = canberra-gtk-module
+# environment
+USER = nick
+# default
+MAKE_VERSION := 4.3
+# environment
+KDE_SESSION_UID = 1000
+# makefile (from 'nbproject/Makefile-variables.mk', line 10)
+CND_ARTIFACT_PATH_default = dist/default/production/FinalProj.X.production.hex
+# environment
+LC_MEASUREMENT = en_US.UTF-8
+# makefile (from 'nbproject/Makefile-variables.mk', line 9)
+CND_ARTIFACT_NAME_default = FinalProj.X.production.hex
+# environment
+_ = /usr/bin/make
+# makefile (from 'nbproject/Makefile-impl.mk', line 31)
+CONF = ${DEFAULTCONF}
+# environment
+LC_PAPER = en_US.UTF-8
+# makefile (from 'nbproject/Makefile-impl.mk', line 30)
+DEFAULTCONF = default
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+GTK2_RC_FILES = /etc/gtk-2.0/gtkrc:/home/nick/.gtkrc-2.0:/home/nick/.config/gtkrc-2.0
+# environment
+HOME = /home/nick
+# makefile (from 'nbproject/Makefile-impl.mk', line 16)
+SUB_no = NO
+# makefile (from 'nbproject/Makefile-impl.mk', line 22)
+CLEAN_SUBPROJECTS_NO = 
+# makefile (from 'nbproject/Makefile-impl.mk', line 23)
+CLEAN_SUBPROJECTS = ${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-dc656a11-1.66.2-main.sock
+# environment
+XDG_SESSION_ID = 2
+ 
+# makefile (from 'nbproject/Makefile-variables.mk', line 8)
+CND_ARTIFACT_DIR_default = dist/default/production
+# environment
+XCURSOR_SIZE = 24
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# makefile (from 'nbproject/Makefile-impl.mk', line 34)
+ALLCONFS = default 
+# default
+SUFFIXES := 
+# environment
+QT_AUTO_SCREEN_SCALE_FACTOR = 0
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# makefile (from 'nbproject/Makefile-impl.mk', line 17)
+SUBPROJECTS = ${SUB_${SUB}}
+# environment
+KDE_SESSION_VERSION = 5
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink guile load
+# environment
+KDE_FULL_SESSION = true
+# environment
+LC_IDENTIFICATION = en_US.UTF-8
+# makefile (from 'nbproject/Makefile-impl.mk', line 21)
+CLEAN_SUBPROJECTS_ = .clean-subprojects
+# variable set hash-table stats:
+# Load=128/1024=12%, Rehash=0, Collisions=8/170=5%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 66308, inode 10884592): 11 files, no impossibilities.
+
+# 11 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+.clean-impl: .clean-pre
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-impl.mk', line 44):
+	${MAKE} -f nbproject/Makefile-${CONF}.mk SUBPROJECTS=${SUBPROJECTS} .clean-conf
+
+.build-impl: .build-pre
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-impl.mk', line 39):
+	${MAKE} -f nbproject/Makefile-${CONF}.mk SUBPROJECTS=${SUBPROJECTS} .build-conf
+
+.build-post: .build-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.all-post: .all-impl
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/8=0%
+
+.help-post: .help-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.help-impl:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.clean-post: .clean-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-14 18:28:40.026111034
+#  File has been updated.
+#  Successfully updated.
+
+clean: .clean-post
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.clean-pre:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.build-pre:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.all-pre:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: .all-post
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/8=0%
+
+help: .help-post
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.depcheck-impl:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+.help-pre:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build: .build-post
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+nbproject/Makefile-variables.mk:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-18 16:59:40.465694755
+#  File has been updated.
+#  Successfully updated.
+
+.clobber-post: .clobber-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.clobber-pre:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clobber: .clobber-post
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+nbproject/Makefile-impl.mk:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-18 16:59:36.888861254
+#  File has been updated.
+#  Successfully updated.
+
+.all-impl: .all-pre .depcheck-impl
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Modification time never checked.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := .all-impl
+# automatic
+# * := 
+# automatic
+# < := .all-pre
+# automatic
+# + := .all-pre .depcheck-impl
+# automatic
+# % := 
+# automatic
+# ^ := .all-pre .depcheck-impl
+# automatic
+# ? := .all-pre .depcheck-impl
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=7/16=44%
+#  recipe to execute (from 'nbproject/Makefile-impl.mk', line 54):
+	    ${MAKE} SUBPROJECTS=${SUBPROJECTS} CONF=default build
+
+.clobber-impl: .clobber-pre .depcheck-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-impl.mk', line 48):
+	    ${MAKE} SUBPROJECTS=${SUBPROJECTS} CONF=default clean
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=26/1024=3%, Rehash=0, Collisions=3/67=4%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 37 / storage = 388 B / avg = 10 B
+# current buf: size = 8162 B / used = 388 B / count = 37 / avg = 10 B
+
+# strcache performance: lookups = 81 / hit rate = 54%
+# hash-table stats:
+# Load=37/8192=0%, Rehash=0, Collisions=0/81=0%
+# Finished Make data base on Mon Apr 18 17:02:40 2022
+
+ 
